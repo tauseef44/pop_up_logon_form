@@ -11,7 +11,7 @@ import Portfolio from './components/Portfolio';
 import Team from './components/Team';
 import Contactus from './components/Contactus';
 import Registerpage from './components/Registerpage';
-import MentorQuiz from './components/rgsform';
+import RegistrationForm from './components/rgsform';
 
 
 function App() {
@@ -32,7 +32,8 @@ function App() {
     <Route path='/portfolio' element={<Portfolio/>}/>
     <Route path='/contact' element={<Contactus/>}/>
     <Route path='/team' element={<Team/>}/>
-    <Route path='/mentor' element={<MentorQuiz/>}/>
+    <Route path='/re' element={<RegistrationForm/>}/>
+
 
     <Route path='/registerpage' element={<Registerpage/>}/>
 
